@@ -1,2 +1,2 @@
 # Hotel_Boutique
-AWS Project by Team69
+AWS Project Using EC2, Lambda, S3, DynamoDB and more
