@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rooms</title>
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@3.5.0/fonts/remixicon.css" rel="stylesheet"/>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <nav >
+        <div class="nav__bar">
+          <div class="nav__header">
+            <div class="logo nav__logo">
+              <div>B</div>
+              <span>HOTEL<br/>BOUTIQUE</span>
+            </div>
+            <div class="nav__menu__btn" id="menu-btn">
+              <i class="ri-menu-line"></i>
+            </div>
+          </div>
+          <ul class="nav__links" id="nav-links">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="index.html">About</a></li>
+            <li><a href="rooms-display.html">Rooms</a></li>
+            <li><a href="index.html">Amenities</a></li>
+            <li><a href="index.html">Contact us</a></li>
+            <li id="welcome" style="color: rgb(181, 10, 10);"></li>
+            
+          </ul>
+        </div>
+      </nav>
+      <div class="room__container">
+        
+      <form id="dateForm" class="input__group1">
+        <h1>Book your Room</h1>
+        <label for="startDate">Check-In : </label>
+        <input type="date" id="startDate" name="startDate">
+    
+        <label for="endDate">Check-Out : </label>
+        <input type="date" id="endDate" name="endDate">
+
+        
+    
+      </form>
+      <button class=" btn rbtn" id="bookNowButton" onclick="bookRoom()">Book Now</button>
+      <br>
+      
+    
+    <div class="room__grid" id="roomContainer"></div>
+    <br>
+    
+  </div>
+
+      <script src="https://code.jquery.com/jquery-3.6.4.min.js"></script>
+      <script src="https://unpkg.com/scrollreveal"></script>
+      <script src="main.js"></script>
+      <script src="login_booking.js" ></script>
+
+
+<style>
+  #roomContainer{
+   margin-left: 10%;
+  }
+  #dateForm{
+    margin-left: 10%;
+    
+    
+  }
+  .input__group1 {
+  display: grid;
+  gap: 1rem;
+}
+
+.input__group1 label {
+  font-weight: 600;
+  color: black;
+}
+
+.input__group1 input {
+  width: 50%;
+  font-size: 1rem;
+  padding: 0.5rem;
+  color: black;
+  background-color: rgb(225, 204, 204);
+  outline: none;
+  border: none;
+  border-bottom: 1px solid var(--text-light);
+  border-radius: 5px;
+  font-family: "Poppins", serif;
+}
+.rcard{
+  margin-inline: 1rem;
+  padding: 1rem;
+  gap: 1rem;
+  background-color: var(--white);
+  
+  border-radius: 10px;
+  box-shadow: 5px 5px 20px rgba(0, 0, 0, 0.2);
+}
+.room-box{
+  max-width: 400px;
+  width: 100%;
+  border: 1px none black;
+  padding: 1.5rem;
+  border-radius: 15px;
+  background-color: antiquewhite;
+  align-items: center;
+  
+}
+.room-box img{
+  margin-bottom: 10px;
+  max-width: 400px;
+  width: 100%;
+  border-radius: 10px;
+  
+}
+.room-box input[type="radio"]{
+  background-color: blue;
+}
+.rbtn{
+  margin-left: 10%;
+  margin-top: 2rem;
+}
+  
+</style>
+</body>
+</html>

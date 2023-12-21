@@ -1,0 +1,238 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/remixicon@3.5.0/fonts/remixicon.css"
+      rel="stylesheet"/>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.1.0/css/all.css">
+    <link rel="stylesheet" href="styles.css" />
+    <title>Boutique</title>
+  </head>
+  <body>
+    <nav>
+      <div class="nav__bar">
+        <div class="nav__header">
+          <div class="logo nav__logo">
+            <div>B</div>
+            <span>HOTEL<br/>BOUTIQUE</span>
+          </div>
+          <div class="nav__menu__btn" id="menu-btn">
+            <i class="ri-menu-line"></i>
+          </div>
+        </div>
+        <ul class="nav__links" id="nav-links">
+          <li><a href="index.html">Home</a></li>
+          <li><a href="#about">About</a></li>
+          <li><a href="rooms-display.html">Rooms</a></li>
+          <li><a href="#feature">Amenities</a></li>
+          <li><a href="#footer">Contact us</a></li>
+          <li><a href="login.html" style="color: red;">Sign in</a></li>
+     
+        </ul>
+      </div>
+    </nav>
+
+    <header class="header" id="home">
+      <div class="section__container header__container">
+        
+        <h1>Where luxury <br> meets your story.</h1>
+        <a href="login.html"><button class="btn">Book Now</button></a>
+        <a href="mymangepage.html"><button class="ybtn mbtn">View and Manage</button></a>
+      </div>
+    </header>
+
+    <section class="booking">
+      <div class="section__container booking__container">
+        <div class="form">
+          <div class="input__group">
+            <label for="arrival">Arrival Date</label>
+            <input class="date" id="arrival" type="date" placeholder="Your Arrival Date" />
+          </div>
+          <div class="input__group">
+            <label for="departure">Departure Date</label>
+            <input class="date" id="departure" type="date" placeholder="Your Departure Date" />
+          </div>
+          <div class="input__group">
+            <label for="guests">No. of Adults</label>
+            <input type="text" placeholder="Adult" />
+          </div>
+          <div class="input__group">
+            <label for="guests">No. of Children</label>
+            <input type="text" placeholder="Children" />
+          </div>
+          <a href="rooms.html"><button class="btn">Check Availability</button></a>
+        </div>
+      </div>
+    </section>
+
+    <section class="about" id="about">
+      <div class="section__container about__container">
+        <div class="about__grid">
+          <div class="about__image">
+            <img src="img/2.jpg" alt="about" />
+          </div>
+          <div class="about__card">
+            <span><i class="fas fa-utensils"></i></span>
+            <h4> Gourmet Dining</h4>
+            <p>
+              Savor culinary delights at our exquisite restaurant, 
+              where our chefs craft dishes that tantalize the taste buds and showcase the best of local and international cuisine.
+            </p>
+          </div>
+          <div class="about__image">
+            <img src="img/food.jpg" alt="about" />
+          </div>
+          <div class="about__card">
+            <span><i class="ri-home-line"></i></span>
+            <h4>Grand Rooms</h4>
+            <p>Indulge in the comfort of our thoughtfully designed rooms, each uniquely styled to provide a luxurious and relaxing retreat.</p>
+          </div>
+        </div>
+        <div class="about__content">
+          <p class="section__subheader">ABOUT US</p>
+          <h2 class="section__header">Welcome to Boutique Hotel</h2>
+          <p class="section__description">
+            Nestled in the heart of Vellore, Boutique Hotel offers a charming blend of contemporary elegance and delight. 
+            Our hotel is more than just a place to stay, it's an experience crafted to cater to your every need and exceed your expectations.
+          <br> At Boutique, we believe in providing more than just accommodation. We curate an atmosphere where each guest feels like a welcomed friend. 
+           Our intimate setting ensures personalized service, attention to detail, and a commitment to making your stay truly memorable.
+          </p>
+          <a href="booking.html"><button class="btn">Book Now</button></a>
+        </div>
+      </div>
+    </section>
+
+    <section class="section__container feature__container" id="feature">
+
+      <h2 class="section__header">Amenities</h2>
+      <div class="feature__grid">
+        <div class="feature__card">
+          <span><i class="ri-wifi-line"></i></span>
+          <h4>Complimentary Wi-Fi</h4>
+          <p>
+            Stay connected seamlessly with our complimentary high-speed Wi-Fi. Whether for work or leisure, enjoy uninterrupted connectivity throughout your stay with us.
+          </p>
+        </div>
+        <div class="feature__card">
+          <span><i class="ri-time-line"></i></span>
+          <h4>24/7 Room Service</h4>
+          <p>
+            Indulge in the convenience of our specially crafted 24/7 room service, ensuring that you can enjoy our offerings at any time of day
+          </p>
+        </div>
+        <div class="feature__card">
+          <span><i class="fas fa-dumbbell"></i></span>
+          <h4>State-of-the-Art Fitness Center</h4>
+          <p>
+            Stay active during your stay with access to our modern fitness facilities equipped with the latest equipment.
+          </p>
+        </div>
+        <div class="feature__card">
+          <span><i class="ri-parking-box-line"></i></span>
+          <h4>Secure Parking</h4>
+          <p>
+            Enjoy peace of mind with secure and convenient on-site parking facilities.
+          </p>
+        </div>
+        <div class="feature__card">
+          <span><i class="ri-remote-control-line"></i></span>
+          <h4>Smart Room Technology</h4>
+          <p>
+            Experience cutting-edge technology with smart room features for personalized in-room customization.
+          </p>
+        </div>
+        <div class="feature__card">
+          <span><i class="fas fa-swimming-pool"></i></span>
+          <h4>Swimming Pool</h4>
+          <p>
+            Take a dip in our sparkling swimming pool, a featured amenity providing a perfect blend of relaxation and enjoyment
+          </p>
+        </div>
+      </div>
+    </section>
+
+   
+
+    <footer id="footer"  class="footer">
+      <div class="section__container footer__container">
+        <div class="footer__col">
+          <div class="logo footer__logo">
+            <div>B</div>
+            <span>HOTEL<br />BOUTIQUE</span>
+          </div>
+          <p class="section__description">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Nihil,
+            laudantium unde. Doloremque eaque debitis laborum labore voluptates
+            iste molestiae consectetur.
+          </p>
+          <ul class="footer__socials">
+            <li>
+              <a href="#"><i class="ri-youtube-fill"></i></a>
+            </li>
+            <li>
+              <a href="#"><i class="ri-instagram-line"></i></a>
+            </li>
+            <li>
+              <a href="#"><i class="ri-facebook-fill"></i></a>
+            </li>
+            <li>
+              <a href="#"><i class="ri-linkedin-fill"></i></a>
+            </li>
+          </ul>
+        </div>
+        <div class="footer__col">
+          <h4>Services</h4>
+          <div class="footer__links">
+            <li><a href="#">Online Booking</a></li>
+            <li><a href="#">Room Customization</a></li>
+            <li><a href="#">Virtual Tours</a></li>
+            <li><a href="#">Special Offers</a></li>
+            <li><a href="#">Concierge Services</a></li>
+            <li><a href="#">Customer Support</a></li>
+          </div>
+        </div>
+        <div class="footer__col">
+          <h4>Contact Us</h4>
+          <div class="footer__links">
+            <li>
+              <span><i class="ri-phone-fill"></i></span>
+              <div>
+                <h5>Phone Number</h5>
+                <p>+91 9876543210</p>
+              </div>
+            </li>
+            <li>
+              <span><i class="ri-record-mail-line"></i></span>
+              <div>
+                <h5>Email</h5>
+                <p>info@hotelboutique.com</p>
+              </div>
+            </li>
+            <li>
+              <span><i class="ri-map-pin-2-fill"></i></span>
+              <div>
+                <h5>Location</h5>
+                <p>Vellore, India</p>
+              </div>
+            </li>
+          </div>
+        </div>
+      </div>
+      <div class="footer__bar">
+        Copyright © 2023 Ryan Dhruv Sibi Sowmya. All rights reserved.
+      </div>
+    </footer>
+
+    
+    <script src="https://code.jquery.com/jquery-3.6.4.min.js"></script>
+    <script src="https://unpkg.com/scrollreveal"></script>
+    <script src="main.js"></script>
+    <script src="login_booking.js" ></script>
+
+  </body>
+</html>
+
+
+
